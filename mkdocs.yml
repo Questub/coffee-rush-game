@@ -8,8 +8,6 @@ theme:
   name: material
   custom_dir: overrides
   language: en
-  icon:
-    logo: material/article
   palette:
     - scheme: default
       primary: indigo
