@@ -1,0 +1,54 @@
+site_name: Coffee Rush
+site_description: 
+site_url: https://coffee-rush-game.readthedocs.io
+
+docs_dir: docs
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  icon:
+    logo: material/article
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+extra_javascript:
+  - js/tracker.js
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Features: features.md
+  - How to Download: how-to-download.md
+  - FAQ: faq.md
+  - Coffee Rush Windows 10: coffee-rush-windows-10.md
+  - Coffee Rush Windows 11: coffee-rush-windows-11.md

@@ -1,0 +1,11 @@
+[project]
+app_name          = "Coffee Rush"
+main_keyword      = "coffee rush game"
+short_description = "Coffee Rush game is an engaging time-management simulation where players run their own coffee shop and serve customers efficiently"
+meta_description  = "Explore our comprehensive documentation site for the coffee rush game. Access a detailed download guide, features overview, and an FAQ section to enhance your gaming experience."
+release_date      = "2026-04-08"
+
+additional_pages = [
+  "Coffee Rush windows 10",
+  "Coffee Rush windows 11",
+]
